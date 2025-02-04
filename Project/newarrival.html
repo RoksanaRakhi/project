@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Arrivals</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+.new-arrivals {
+  text-align: center;
+  padding: 20px;
+}
+
+.new-arrivals h1 {
+  font-size: 2em;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.book-carousel {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  font-size: 1em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.book-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+</style>
+</head>
+<body>
+  <section class="new-arrivals">
+    <h1>New Arrivals</h1>
+    <div class="book-carousel">
+      <div class="book-card">
+        <img src="image1.jpg" alt="Book Cover">
+        <h3>সার ফজলে হাসান আবেদ সংবর্ধনা গ্রন্থ</h3>
+        <p>Author: ফারুক চৌধুরী</p>
+      </div>
+      <div class="book-card">
+        <img src="image2.jpg" alt="Book Cover">
+        <h3>Quality assurance in higher education</h3>
+        <p>Author: David Lim</p>
+      </div>
+      <div class="book-card">
+        <img src="image3.jpg" alt="Book Cover">
+        <h3>The Bangladesh reader: history, culture, politics</h3>
+        <p>Author: Meghna Guhathakurta and Willem van Schendel</p>
+      </div>
+      <div class="book-card">
+        <img src="image4.jpg" alt="Book Cover">
+        <h3>To have or to be?</h3>
+        <p>Author: Erich Fromm</p>
+      </div>
+      <div class="book-card">
+        <img src="image5.jpg" alt="Book Cover">
+        <h3>Small is beautiful: a study of economics as if people mattered</h3>
+        <p>Author: E.F. Schumacher</p>
+      </div>
+      <div class="book-card">
+        <img src="image6.jpg" alt="Book Cover">
+        <h3>Data mining and machine learning in cybersecurity</h3>
+        <p>Author: Sumeet Dua, Xian Du</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

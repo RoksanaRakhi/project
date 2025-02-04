@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library Dashboard</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #858fbb, #b791dc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .dashboard-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+        .dashboard-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .action-btn {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            background: #6a11cb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+        .action-btn:hover {
+            background: #2575fc;
+        }
+        .logout-btn {
+            background: #841c11;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="row mt-1">
+        <div class="col-md-1">
+            <img src="images/library1.png" alt="Library"> 
+        </div>
+
+    <div class="col-md-1">
+        <h2>Welcome to Your E-Library Dashboard</h2>
+        <a href="bokissue.html">
+            <button class="action-btn">Hold a Book</button>
+        </a> 
+        <a href="bookrenewel.html">
+            <button class="action-btn">Renew Book</button>
+        </a>
+        <button class="action-btn logout-btn">Logout</button>
+    </div>
+</div>
+</body>
+</html>
